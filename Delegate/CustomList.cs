@@ -28,8 +28,7 @@ public class CustomList<T>:IEnumerable<T>
                 }
                 Array.Resize(ref arr, arr.Length-1);
                 return true;
-            }
-            else return false;                
+            }              
         }
         return false;
     }
